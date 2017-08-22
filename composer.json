@@ -1,0 +1,14 @@
+{
+    "require": {
+        "illuminate/database": "5.0.*",
+        "illuminate/events": "5.0.*",
+        "symfony/debug": "2.6.*",
+        "symfony/var-dumper": "2.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dvd\\Tools\\": "packages/dvd/tools/src",
+            "App\\Repositories\\": "application/repositories"
+        }
+    }
+}
